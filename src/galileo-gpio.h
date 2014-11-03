@@ -104,7 +104,14 @@ extern int gpio_get_value(char *gpio);
  */
 extern void gpio_get_direction(char *gpio, char *dir);
 
+/**
+ * Enables debug printing
+ */
+void debug_on();
+
+/**
+ * Disables debug printing
+ */
+void debug_off();
 
 #endif /* USERGPIO_H */
-
-

@@ -85,17 +85,11 @@ void gpio_get_direction(char *gpio, char* dir)
     close(fd);
 }
 
-/**
- *  Enables debug mode
- */
 void debug_on()
 {
     debug_mode = 1;
 }
 
-/**
- *  Disables debug mode
- */
 void debug_off()
 {
     debug_mode = 0;
